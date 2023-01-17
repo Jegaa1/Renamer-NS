@@ -15,7 +15,7 @@ class Config:
     BOT_PASSWORD = os.environ.get("BOT_PASSWORD", "") if os.environ.get("BOT_PASSWORD", "") else None
     CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION") if os.environ.get("CUSTOM_CAPTION", "") else None
     FORCE_SUB = os.environ.get("FORCE_SUB", "") if os.environ.get("FORCE_SUB", "") else None
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://video:video@cluster0.gp0rn.mongodb.net/?retryWrites=true&w=majority")
+    #DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://video:video@cluster0.gp0rn.mongodb.net/?retryWrites=true&w=majority")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     try:
         TIME_GAP = int(os.environ.get("TIME_GAP", "10")) if os.environ.get("TIME_GAP", "") else None
