@@ -11,7 +11,7 @@ from ..tools.timegap_check import timegap_check
 from ..tools.thumbnail_fixation import fix_thumb
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
-from ..database.database import *
+#from ..database.database import *
 from pyrogram import Client as RenamerNs, filters
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 from pyrogram.emoji import *
